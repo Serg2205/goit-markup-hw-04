@@ -123,9 +123,13 @@ body {
 
 .section-first {
   background: #2e2f42;
+  background-image: url(../images/people_office.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   padding-top: 188px;
   padding-bottom: 188px;
 }
+
 .title {
   max-width: 496px;
   font-weight: 700;
