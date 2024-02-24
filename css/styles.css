@@ -95,6 +95,14 @@ body {
   padding-top: 24px;
   padding-bottom: 24px;
 }
+.menu-link-studio::after {
+  content: "";
+  display: block;
+  border-radius: 2px;
+  width: 48px;
+  height: 4px;
+  background: #404bbf;
+}
 
 .menu-link:hover,
 .menu-link:focus {
@@ -124,10 +132,15 @@ body {
 .section-first {
   background: #2e2f42;
   background-image: url(../images/people_office.jpg);
+
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: left top;
   padding-top: 188px;
   padding-bottom: 188px;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .title {
